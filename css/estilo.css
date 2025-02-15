@@ -1,0 +1,120 @@
+.tudo{
+	display: flex;
+	background-color:white;
+	justify-content: space-between;
+	flex-direction: column;
+
+}
+
+.cima{
+	background-color:#EFBBF3;
+	width:100%;
+	height: 90px;
+	display: flex;
+	height: 8vh;
+	width: 100%;
+	justify-content: space-around;
+}
+.logo{
+	height: 50%;
+}
+
+.pic{
+	width: 90%;
+	height: auto;
+}
+
+.foto{
+	display:flex;
+	width: 90%;
+	height: auto;
+	flex-direction:row;
+	margin-top:2%;
+	justify-content: space-around;
+	justify-content: center;
+
+}
+
+.foto2{
+	display:flex;
+	width: 90%;
+	height: auto;
+	flex-direction:row;
+	margin-top:2%;
+	justify-content: space-around;
+	justify-content: center;
+
+}
+.rodape{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2.3vh;
+	background-color: #EFBBF3;
+}
+@media (max-width: 768px) {
+	.cima {
+		height: 10vh; 
+		flex-direction: column; 
+		align-items: center; 
+	}
+
+	.foto, .foto2 {
+		flex-direction: column;
+		width: 100%; 
+		margin-top: 10px;
+	}
+
+	.rodape {
+		font-size: 3vh; 
+		padding: 15px 0;
+	}
+
+	.pic {
+		width: 100%; 
+	}
+}
+
+@media (max-width: 1024px) {
+	.cima {
+		height: 10vh; 
+	}
+
+	.foto, .foto2 {
+		flex-direction: row; 
+		width: 90%;
+		justify-content: space-between;
+	}
+
+	.rodape {
+		font-size: 2.5vh;
+	}
+
+	.pic {
+		width: 95%; 
+	}
+}
+
+@media (min-width: 1025px) {
+	.cima {
+		height: 8vh; 
+	}
+
+	.foto, .foto2 {
+		flex-direction: row; 
+		justify-content: space-between;
+	}
+
+	.rodape {
+		font-size: 2.3vh; 
+	}
+}
+
+
+
+
+
+
+
+
+
